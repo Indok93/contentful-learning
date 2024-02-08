@@ -1,0 +1,42 @@
+.gridItem {
+    width: 250px;
+    height: 500px;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+    border: solid 2px #dedede;
+    padding: 2rem;
+    position: relative;
+    overflow: hidden;
+}
+  
+.title {
+    font-family: cursive, arial, sans-serif;
+    letter-spacing: 0.5rem;
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    border: solid 1px #fff;
+    border-radius: 3rem 0 3rem 0;
+    padding: 1rem;
+    background-color: #48b94e;
+}
+  
+.description {
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: fantasy;
+    color: #000;
+    text-align: justify;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 1em;
+    background-color: rgb(190, 190, 190);
+    border-radius: 3rem 3rem 0 0;
+}
+  
+img {
+    width: 100%;
+}
