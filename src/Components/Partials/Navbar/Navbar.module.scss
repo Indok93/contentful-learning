@@ -1,0 +1,23 @@
+.navheader {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    ul {
+        display: flex;
+        li {
+            list-style-type: none;
+            margin: 0 1em;
+            a {
+                text-decoration: none;
+                padding: 5px 10px;
+                background-color: #000;
+                color: #fff;
+                border-radius: 1em;
+                &:hover {
+                    background-color: #fff;
+                    color: #000;
+                }
+            }
+        }
+    }
+}

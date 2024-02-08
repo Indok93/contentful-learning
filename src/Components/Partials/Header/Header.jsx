@@ -1,8 +1,9 @@
+import { Navbar } from "../Navbar/Navbar"
 
 export const Header = () => {
   return (
-    <div>
-        Header
-    </div>
+    <header>
+        <Navbar />
+    </header>
   )
 }

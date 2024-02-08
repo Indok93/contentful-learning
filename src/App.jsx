@@ -3,17 +3,19 @@ import './App.scss'
 import { Header } from './Components/Partials/Header/Header'
 import { Main } from './Components/Partials/Main/Main'
 import { Footer } from './Components/Partials/Footer/Footer'
-import { Home } from './Pages/Home/Home'
+import { AppRouter } from './Components/AppRouter/AppRouter'
 
 function App() {
 
   return (
     <>
-      <Header></Header>
+      <Header />
+
       <Main>
-        <Home></Home>
+        <AppRouter />
       </Main>
-      <Footer></Footer>
+      
+      <Footer />
     </>
   )
 }
