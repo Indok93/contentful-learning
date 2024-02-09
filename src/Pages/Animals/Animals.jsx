@@ -9,7 +9,7 @@ export const Animals = () => {
 
   useEffect(() => {
     getAnimals().then((response) => setAnimals(response))
-  }, [animals])
+  })
   return (
     <ContentWrapper title="Animals">
       <div className={styles.wrapper}>

@@ -4,6 +4,7 @@ import { Header } from './Components/Partials/Header/Header'
 import { Main } from './Components/Partials/Main/Main'
 import { Footer } from './Components/Partials/Footer/Footer'
 import { AppRouter } from './Components/AppRouter/AppRouter'
+import { ButtonTop } from './Components/ButtonTop/ButtonTop'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       </Main>
       
       <Footer />
+      <ButtonTop />
     </>
   )
 }

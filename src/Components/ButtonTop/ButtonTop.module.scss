@@ -1,0 +1,25 @@
+.buttonTop {
+    position: fixed;
+    bottom: 1rem;
+    right: 14rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
+    text-transform: uppercase;
+    opacity: 0; // Hide the button by default
+    transition: opacity 0.5s ease-in-out; // Optional: Add a transition for smooth visibility change
+
+    &:hover {
+        background-color: #fff;
+        color: #007bff;
+    }
+}
+
+.visible {
+    opacity: 1; // Show the button when it should be visible
+}
